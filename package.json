@@ -2,7 +2,7 @@
   "name": "@bacaxnot/utils",
   "license": "MIT",
   "author": "bacaxnot",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A collection of utility functions when working with Web Technologies like React, TailwindCSS and Typescript",
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
+    "add:version": "changeset",
     "release": "pnpm run build && changeset publish",
     "lint": "tsc"
   },
