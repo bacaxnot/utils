@@ -1,0 +1,29 @@
+{
+  "name": "@bacaxnot/utils",
+  "license": "MIT",
+  "author": "bacaxnot",
+  "version": "1.0.0",
+  "description": "A collection of utility functions when working with Web Technologies like React, TailwindCSS and Typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bacaxnot/utils"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "tailwindcss",
+    "utils",
+    "react",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
