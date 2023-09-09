@@ -1,1 +1,1 @@
-export { CustomFC, AllHTMLProps } from "./react";
+export { CustomFC, AllHTMLProps, cn } from "./react";
