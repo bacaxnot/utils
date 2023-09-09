@@ -1,5 +1,11 @@
 # @bacaxnot/utils
 
+## 0.2.1
+
+### Patch Changes
+
+- 653351d: fix export of cn util
+
 ## 0.2.0
 
 ### Minor Changes
