@@ -1,5 +1,11 @@
 # @bacaxnot/utils
 
+## 0.2.2
+
+### Patch Changes
+
+- 3bfac08: fix nextjs typing error on CustomFC
+
 ## 0.2.1
 
 ### Patch Changes
