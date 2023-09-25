@@ -2,7 +2,7 @@
   "name": "@bacaxnot/utils",
   "license": "MIT",
   "author": "bacaxnot",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A collection of utility functions when working with Web Technologies like React, TailwindCSS and Typescript",
   "repository": {
     "type": "git",
