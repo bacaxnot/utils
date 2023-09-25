@@ -1,5 +1,11 @@
 # @bacaxnot/utils
 
+## 0.2.3
+
+### Patch Changes
+
+- e8b10c0: fix: nextjs persisting error
+
 ## 0.2.2
 
 ### Patch Changes
