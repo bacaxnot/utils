@@ -16,5 +16,6 @@ export type AllHTMLProps<T extends HTMLTag> = ComponentPropsWithRef<T>;
  * In the above example, the props argument will be inferred to be of type `AllHTMLProps<"div">`, which is equivalent to `React.ComponentPropsWithRef<"div">`.
  */
 export type CustomFC<Tag extends HTMLTag, Props = object> = (
-  props: AllHTMLProps<Tag> & Props
+  props: AllHTMLProps<Tag> & Props,
+  deprecatedLegacyContext?: any
 ) => ReactNode;
