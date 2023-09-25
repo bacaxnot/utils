@@ -1,4 +1,4 @@
-import { FunctionComponent, ComponentPropsWithRef, ElementType } from "react";
+import { ComponentPropsWithRef, ElementType, ReactNode } from "react";
 
 type HTMLTag = ElementType<any>;
 
@@ -15,6 +15,6 @@ export type AllHTMLProps<T extends HTMLTag> = ComponentPropsWithRef<T>;
  * };
  * In the above example, the props argument will be inferred to be of type `AllHTMLProps<"div">`, which is equivalent to `React.ComponentPropsWithRef<"div">`.
  */
-export type CustomFC<Tag extends HTMLTag, Props = object> = FunctionComponent<
-  AllHTMLProps<Tag> & Props
->;
+export type CustomFC<Tag extends HTMLTag, Props = object> = (
+  props: AllHTMLProps<Tag> & Props
+) => ReactNode;
