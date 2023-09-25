@@ -8,6 +8,7 @@ type HTMLTag = ElementType<any>;
 export type AllHTMLProps<T extends HTMLTag> = ComponentPropsWithRef<T>;
 
 /**
+ * @deprecated Use `AllHTMLProps` instead.
  * A custom FunctionComponent that accepts a generic HTML tag as a prop. This is useful to infer the correct props for a given HTML tag.
  * @example
  * const MyComponent: CustomFC<"div"> = (props) => {
