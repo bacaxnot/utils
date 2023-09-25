@@ -1,5 +1,11 @@
 # @bacaxnot/utils
 
+## 0.2.4
+
+### Patch Changes
+
+- e06d783: remove typing error from nextjs
+
 ## 0.2.3
 
 ### Patch Changes
